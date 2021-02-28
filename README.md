@@ -1,5 +1,5 @@
 # BalerRecon
-Recon script thats tastes like bal
+Baler Script
 ## Tool Requirements
 - [x] GAU
 - [x] Waybackurls
