@@ -129,7 +129,7 @@ echo "----"
 echo -e "\033[31m________________________________________________________________________"
 echo -e "\033[31m[$]\033[0m Testing For OpenRedirect Vulnerability" | tee -a $domain.txt
 echo "---"
-gau $domain | grep -iE $redirect | qsreplace "https://evil.com" | httpx -silent -status-code -location | tee redirect.result
+gau $domain | grep "=" | qsreplace "https://evil.com" | httpx -silent -status-code -location | tee redirect.result
 cat redirect.result >> $domain.txt
 echo "---"
 echo -e "\033[31m________________________________________________________________________"
