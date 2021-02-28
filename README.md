@@ -1,6 +1,6 @@
 # BalerRecon
 Recon script thats tastes like bal
-## What It needs to be installed ?
+## Tool Requirements
 - [x] GAU
 - [x] Waybackurls
 - [x] qsreplace
